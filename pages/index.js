@@ -4,7 +4,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   console.log("This should be removed.");
-  return (
+
+  // Put some other stuff in between.
+  // This is not necessary...
+
+  const output = (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -66,5 +70,8 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
+
+  console.log("A whole different logging!")
+  return output;
 }
