@@ -72,6 +72,5 @@ export default function Home() {
     </div>
   );
 
-  console.log("A whole different logging!")
   return output;
 }
