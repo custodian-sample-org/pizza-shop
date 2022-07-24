@@ -72,6 +72,6 @@ export default function Home() {
     </div>
   );
 
-  console.log("A whole different logging!")
+  console.log('wow')
   return output;
 }
