@@ -4,7 +4,7 @@ import {DEBUG} from '../constants'
 
 function MyApp({ Component, pageProps }) {
   if (DEBUG) {
-    console.log("This is okay, since it is gated in a DEBUG.");
+    console.log('nice');
   }
   return <Component {...pageProps} />
 }
