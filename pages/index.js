@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  console.log("This should be removed.");
+  console.log('wow');
 
   // Put some other stuff in between.
   // This is not necessary...
